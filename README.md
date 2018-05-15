@@ -1,4 +1,5 @@
-Backend for Telegram bot that can run CRUD operations on your Web API (REST).
+# Telegram Bot for WebAPI
+Telegram bot that can run CRUD operations on your Web API.
 
 It has built-in abilities to restrict performing _unsafe_ operations
 (POST/PUT/DELETE methods) only to bot admin, allowing GET for all users.
@@ -69,7 +70,7 @@ Make sure you have your backend API up and running.
 
 Here is the list of available commands:
 /start - show this welcome screen
-/show - get variable number of items in given category (default = all)
+/show - get variable number of items in given category (if no id provided, will show all items in category)
 /create - to create new item, e.g. '/create products title=IPhone price_rub=10'
 /update - to change item info, e.g. '/update products 1 price_rub=999'
 /delete - to remove item, e.g. '/delete products 1'
